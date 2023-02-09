@@ -1,3 +1,5 @@
+-- when you press the spacebar twice you will fly
+
 local players = game:GetService("Players")
 local player = players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
